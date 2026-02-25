@@ -1,0 +1,34 @@
+.error-boundary {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-boundary .alert {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.error-boundary details {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.error-boundary pre {
+  font-size: 0.875rem;
+  max-height: 200px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.error-boundary summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #721c24;
+}
+
+.error-boundary summary:hover {
+  color: #5a1e1a;
+}
