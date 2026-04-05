@@ -40,7 +40,7 @@ const Header = () => {
           <Navbar expand="lg" className="p-0">
             {/* Logo Section  */}
             <Navbar.Brand>
-              <NavLink to="/">TripNest</NavLink>
+              <NavLink to="/"><img src="/logo192.png" alt="TripNest Logo" style={{ height: '40px' }} /></NavLink>
             </Navbar.Brand>
             {/* End Logo Section  */}
 
@@ -52,7 +52,7 @@ const Header = () => {
             >
               {/*mobile Logo Section  */}
               <Offcanvas.Header>
-                <h1 className="logo">TripNest</h1>
+                <div className="logo"><img src="/logo192.png" alt="TripNest Logo" style={{ height: '40px' }} /></div>
                 <span className="navbar-toggler ms-auto"  onClick={toggleMenu}>
                   <i className="bi bi-x-lg"></i>
                 </span>

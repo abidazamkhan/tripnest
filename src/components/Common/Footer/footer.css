@@ -79,3 +79,48 @@ footer .bdr {
     transition: all 0.6s ease;
     transform: translateY(-20px);
 }
+
+/* Developer Credit Styles */
+.copyright .group {
+  display: inline-flex !important;
+  align-items: center;
+  padding-bottom: 5px;
+  font-size: 14px;
+  color: #94a3b8 !important; 
+}
+
+.copyright .group a {
+  text-decoration: none !important;
+  transition: all 0.3s ease;
+}
+
+.copyright .group .relative {
+  color: #cbd5e1 !important; 
+}
+
+.copyright .group .relative:hover {
+  color: #fff !important;
+}
+
+.copyright .group .hover-line {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  height: 1px;
+  width: 0;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.copyright .group .relative:hover .hover-line {
+  width: 100%;
+}
+
+.copyright .group .text-indigo-600 {
+  color: #818cf8 !important;
+}
+
+.copyright .group .text-indigo-600:hover {
+  color: #a5b4fc !important;
+}
+
