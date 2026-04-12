@@ -98,36 +98,10 @@ const Footer = () => {
           </Row>
           <Row className="py-2 bdr mt-3">
             <Col className="col copyright text-center">
-              <div
-                className="
-    group inline-flex items-center gap-1
-    pb-4 text-sm font-medium
-    text-slate-500 transition-all duration-300
-  "
-              >
-                <span>Developed by</span>
+               <p className="py-4 text-center text-xs md:text-sm">
+        © 2026 Gadgety. Developed By <span className="font-medium ">Abid Azam Khan</span> · CEO of <span className="font-medium">Unipixer</span>
+      </p>
 
-                <a
-                  href="https://abidazam.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="relative font-semibold text-slate-700 hover:text-black ms-1"
-                >
-                  Abid Azam Khan
-                  <span className="absolute -bottom-0.5 left-0 h-px w-0 bg-slate-900 transition-all duration-300 hover-line" />
-                </a>
-
-                <span className="text-slate-400 ms-1">· CEO of</span>
-
-                <a
-                  href="https://unipixer.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-semibold text-indigo-600 transition-colors hover:text-indigo-700 ms-1"
-                >
-                  UNIPIXER
-                </a>
-              </div>
             </Col>
           </Row>
 
