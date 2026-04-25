@@ -99,7 +99,7 @@ const Footer = () => {
           <Row className="py-2 bdr mt-3">
             <Col className="col copyright text-center">
                <p className="py-4 text-center text-xs md:text-sm">
-        © 2026 Gadgety. Developed By <span className="font-medium ">Abid Azam Khan</span> · CEO of <span className="font-medium">Unipixer</span>
+        © 2026 Tripnest. Developed By <span className="font-medium ">Abid Azam Khan</span> · CEO of <span className="font-medium">Unipixer</span>
       </p>
 
             </Col>
